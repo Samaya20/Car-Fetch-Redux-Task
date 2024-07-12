@@ -10,10 +10,10 @@ const CarList = () => {
   dispatch(fetchCars());
   return (
     <div>
-      {cars.loading && "fetching data"}
-      {cars.error && cars.error}
-      {cars.data.length > 0 &&
-        cars.data.map((car) => <CarItem key={car.id} car={car} />)}
+      <ul></ul>
+      {cars.data.length > 0
+        ? cars.data.map((car) => <CarItem key={car.id} car={car} />)
+        : "Göstəriləcək məlumat yoxdur :/"}
     </div>
   );
 };
