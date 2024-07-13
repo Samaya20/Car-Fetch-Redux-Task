@@ -1,0 +1,38 @@
+{
+  "cars": [{
+      "id": "cf35",
+      "model": "Model S",
+      "vendor": "Tesla",
+      "price": 79999,
+      "imageUrl": "/tesla.png"
+    },
+    {
+      "id": "c45h",
+      "model": "Civic",
+      "vendor": "Honda",
+      "price": 22999,
+      "imageUrl": "/honda.png"
+    },
+    {
+      "id": "c22t",
+      "model": "Mustang",
+      "vendor": "Ford",
+      "price": 55999,
+      "imageUrl": "ford.png"
+    },
+    {
+      "id": "c243",
+      "model": "Camry",
+      "vendor": "Toyota",
+      "price": 24999,
+      "imageUrl": "/toyota.png"
+    },
+    {
+      "id": "c21e",
+      "model": "A4",
+      "vendor": "Audi",
+      "price": 39999,
+      "imageUrl": "/audi.png"
+    }
+  ]
+}

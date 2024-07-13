@@ -1,0 +1,100 @@
+.app {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.car-list {
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-list ul {
+    width: 70%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    gap: 20px;
+    background: rgb(116, 116, 116);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.car-list ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+}
+
+.click-update {
+    font-size: 18px;
+    color: #06bf06;
+    font-weight: 600;
+    animation: pulse 400ms infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+.car-list ul li .image-container img {
+    width: 200px;
+}
+
+.details {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.details form label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+    gap: 10px;
+}
+
+
+.details form label input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #a4a4a4;
+}
+
+.updateBtn {
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #06bf06;
+    color: white;
+}
